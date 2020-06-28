@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>regression on Jamel Dargan</title>
+    <link>https://jammy-bot.github.io/ds-portfolio/tags/regression/</link>
+    <description>Recent content in regression on Jamel Dargan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 Dec 1969 19:00:03 -0500</lastBuildDate>
+    
+	<atom:link href="https://jammy-bot.github.io/ds-portfolio/tags/regression/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Success at the Movies</title>
+      <link>https://jammy-bot.github.io/ds-portfolio/projects/project-3/</link>
+      <pubDate>Wed, 31 Dec 1969 19:00:03 -0500</pubDate>
+      
+      <guid>https://jammy-bot.github.io/ds-portfolio/projects/project-3/</guid>
+      <description>Multiple linear regression, SQLite3, PandaSQL | Introduction This project focuses on using data concerning recently successful movie titles. The goal is analysis helpful to the launch of a new studio.
+Objectives This project explores the following questions and why:
+ What are the recent top titles, by gross earnings? Which are the top performing studios? How fluid are their rankings What are the most frequently produced genres? &amp;hellip;The biggest earning? What is the genre mix for top studios?</description>
+    </item>
+    
+  </channel>
+</rss>

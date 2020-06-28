@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CNN on Jamel Dargan</title>
+    <link>https://jammy-bot.github.io/ds-portfolio/tags/cnn/</link>
+    <description>Recent content in CNN on Jamel Dargan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 Dec 1969 19:00:02 -0500</lastBuildDate>
+    
+	<atom:link href="https://jammy-bot.github.io/ds-portfolio/tags/cnn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pneumonia X-ray</title>
+      <link>https://jammy-bot.github.io/ds-portfolio/projects/project-2/</link>
+      <pubDate>Wed, 31 Dec 1969 19:00:02 -0500</pubDate>
+      
+      <guid>https://jammy-bot.github.io/ds-portfolio/projects/project-2/</guid>
+      <description>Binary classification using sklearn pipeline, sequential feature selection, multiple algorithm comparison, hyperperameter tuning, and XGBoost | Nevertheless, as be harangued them, the satisfaction and admiration unanimously excited by his costume were dissipated by his words; and when he reached that untoward conclusion: “As soon as his illustrious eminence, the cardinal, arrives, we will begin,” his voice was drowned in a thunder of hooting.
+“Begin instantly! The mystery! the mystery immediately!” shrieked the people.</description>
+    </item>
+    
+  </channel>
+</rss>

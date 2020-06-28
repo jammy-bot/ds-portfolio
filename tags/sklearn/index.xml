@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sklearn on Jamel Dargan</title>
+    <link>https://jammy-bot.github.io/ds-portfolio/tags/sklearn/</link>
+    <description>Recent content in sklearn on Jamel Dargan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 Dec 1969 19:00:04 -0500</lastBuildDate>
+    
+	<atom:link href="https://jammy-bot.github.io/ds-portfolio/tags/sklearn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Online News Prediction</title>
+      <link>https://jammy-bot.github.io/ds-portfolio/projects/project-4/</link>
+      <pubDate>Wed, 31 Dec 1969 19:00:04 -0500</pubDate>
+      
+      <guid>https://jammy-bot.github.io/ds-portfolio/projects/project-4/</guid>
+      <description>Binary classification using sklearn pipeline, sequential feature selection, multiple algorithm comparison, hyperperameter tuning, and XGBoost | Objectives Through this project, I explore the following question:
+ What features are best able to predict how often an online article will be shared?  Data Set This dataset was acquired from the University of California, Irvine&amp;rsquo;s Center for Machine Learning and Intelligent Systems archive (https://archive.ics.uci.edu/ml/datasets/Online+News+Popularity#).
+ Data references articles published by Mashable (www.</description>
+    </item>
+    
+  </channel>
+</rss>

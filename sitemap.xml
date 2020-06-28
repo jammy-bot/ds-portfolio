@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/data-science/</loc>
+    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/linear-regression/</loc>
+    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jammy-bot.github.io/ds-portfolio/post/article-1/</loc>
+    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/machine-learning/</loc>
+    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jammy-bot.github.io/ds-portfolio/</loc>
+    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/python/</loc>
+    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/scene/</loc>
+    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/</loc>
+    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jammy-bot.github.io/ds-portfolio/post/</loc>
+    <lastmod>2017-03-02T12:00:00-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jammy-bot.github.io/ds-portfolio/projects/</loc>
+    <lastmod>2017-03-02T12:00:00-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/classification/</loc>
+    <lastmod>1969-12-31T19:00:04-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/gridsearchcv/</loc>
+    <lastmod>1969-12-31T19:00:04-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jammy-bot.github.io/ds-portfolio/projects/project-4/</loc>
+    <lastmod>1969-12-31T19:00:04-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/sequential-feature-selection/</loc>
+    <lastmod>1969-12-31T19:00:04-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/sklearn/</loc>
+    <lastmod>1969-12-31T19:00:04-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/xgboost/</loc>
+    <lastmod>1969-12-31T19:00:04-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/pandasql/</loc>
+    <lastmod>1969-12-31T19:00:03-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/pickle/</loc>
+    <lastmod>1969-12-31T19:00:03-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/regression/</loc>
+    <lastmod>1969-12-31T19:00:03-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/sqlite3/</loc>
+    <lastmod>1969-12-31T19:00:03-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jammy-bot.github.io/ds-portfolio/projects/project-3/</loc>
+    <lastmod>1969-12-31T19:00:03-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/cnn/</loc>
+    <lastmod>1969-12-31T19:00:02-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/deep-learning/</loc>
+    <lastmod>1969-12-31T19:00:02-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/gpu-training/</loc>
+    <lastmod>1969-12-31T19:00:02-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/keras/</loc>
+    <lastmod>1969-12-31T19:00:02-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jammy-bot.github.io/ds-portfolio/projects/project-2/</loc>
+    <lastmod>1969-12-31T19:00:02-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/cifar-10/</loc>
+    <lastmod>1969-12-31T19:00:01-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/computer-vision/</loc>
+    <lastmod>1969-12-31T19:00:01-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/pytorch/</loc>
+    <lastmod>1969-12-31T19:00:01-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jammy-bot.github.io/ds-portfolio/projects/project-1/</loc>
+    <lastmod>1969-12-31T19:00:01-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jammy-bot.github.io/ds-portfolio/about/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jammy-bot.github.io/ds-portfolio/categories/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jammy-bot.github.io/ds-portfolio/contact/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+</urlset>
