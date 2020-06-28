@@ -258,19 +258,19 @@
           <li>Setting a threshold of 1500 shares resulted in 20,082 articles shared fewer than 1500 times and 19,562 articles shared 1500 times or more.</li>
           <li>Articles shared more than 1500 times were noted with the number 1, in the engineered column.</li>
         </ul>
-        <p><img src="images/target-balance.png" alt="&ldquo;bar chart of class balance&rdquo;"></p>
+        <p><img src="https://github.com/jammy-bot/dsc-mod-3-project-v2-1/images/target-balance.png" alt="&ldquo;bar chart of class balance&rdquo;"></p>
         <h3 id="data-preparation">Data Preparation</h3>
         <p>The dataset&rsquo;s column labels are prefixed with a space character, which I replaced with an empty string. Otherwise, the main cleaning step was an optional choice to shorten a number of labels. I replaced &lsquo;entertainment&rsquo;
           with &lsquo;ent&rsquo;, &lsquo;reference&rsquo; with &lsquo;ref&rsquo;, and about a dozen other such customizations, such that an unnecessarily lengthy <code>weekday_is_friday</code> label instead became a cleaner <code>week_fri</code>.</p>
-        <p><img src="images/data-histograms.png" alt="&ldquo;histogram plot of the Online News Popularity dataset&rdquo;"></p>
+        <p><img src="https://github.com/jammy-bot/dsc-mod-3-project-v2-1/images/data-histograms.png" alt="&ldquo;histogram plot of the Online News Popularity dataset&rdquo;"></p>
         <p>Visualizing data distributions helped with understanding the types and ranges of data present. Since this was not a regression task, I was not concerned with the apparent lack of strong correlations between the target and any particular
           predictor. I would leave it to modeling, to make that call.</p>
         <p>One thing I did become concerned with was the number of features.</p>
         <p>Leaving aside the <code>url</code>, which I used only as an index column, there are 59 predictors in the dataset. Since the variables are all numeric, I decided to run an unfit logistic model on the full dataset.</p>
         <h3 id="modeling">Modeling</h3>
-        <p><img src="images/lr-roc-aucpng.png" alt="&ldquo;ROC-AUC plot&rdquo;"></p>
+        <p><img src="https://github.com/jammy-bot/dsc-mod-3-project-v2-1/images/lr-roc-aucpng.png" alt="&ldquo;ROC-AUC plot&rdquo;"></p>
         <p>The unfit model proves capable of accurately separating entries into their correct classes 64% of the time. Following this result with a fitted decision tree model resulted in very similar scoring.</p>
-        <p><img src="images/dtree-cm-heatmap.png" alt="&ldquo;decision tree confusion matrix&rdquo;"></p>
+        <p><img src="https://github.com/jammy-bot/dsc-mod-3-project-v2-1/images/dtree-cm-heatmap.png" alt="&ldquo;decision tree confusion matrix&rdquo;"></p>
         <p>The confusion matrix heatmap shows that the decision tree model slightly favors false negatives over false positives (1836 to 1795). This is a useful result.</p>
         <h3 id="evaluation">Evaluation</h3>
         <p>Given the need, we would likely want to favor false negatives over false positives.</p>
@@ -306,10 +306,10 @@
         <p>However, I chose to scale the data at this point. I was beginning to compare models and to create pipelines that might be used to repeat processes across multiple algorithms. Tree and random forest models may not require scaling, but
           others might.</p>
         <p>This stage also involved creating a grid search dictionary, to use machine learning to tune hyperparameters to find optimal settings for making predictions on our data.</p>
-        <p><img src="images/gridsearch.png" alt="&ldquo;verbose gridsearch output&rdquo;"></p>
+        <p><img src="https://github.com/jammy-bot/dsc-mod-3-project-v2-1images/gridsearch.png" alt="&ldquo;verbose gridsearch output&rdquo;"></p>
         <p>We see a two - percent increase in precision and accuracy, as a result of using GridSearchCV to find optimal parameters for tuning a random forest model, based on the values in our parameter grid.</p>
         <p>While model scores remained within only a few percentage points, I wondered whether it would be helpful to reduce the number of features taken into account.</p>
-        <p><img src="images/rf-feature-importances.png" alt="&ldquo;feature importances&rdquo;"></p>
+        <p><img src="https://github.com/jammy-bot/dsc-mod-3-project-v2-1images/rf-feature-importances.png" alt="&ldquo;feature importances&rdquo;"></p>
         <p>So far, we have been modeling with all features in the dataframe. The random forest classifier suggests 10-or-so relatively important features&ndash;a few more than had been suggested by the decision tree model.</p>
         <ul>
           <li>Where kw_avg_avg reached 0.33 and channel_world eeked - out .01 on the scale, for our tree model, random forest model importances for the same two features are approximately 0.15 and .07, respectively.</li>
@@ -318,10 +318,10 @@
         <p>Here, again, we can let machine learning draw the line.</p>
         <p>Including irrelevant features can introduce &lsquo;noise&rsquo; to our model and make results less interpretable. I made use of the mlxtend library&rsquo;s SequentialFeatureSelector (sfs) module to perform forward selection and determine
           the best features to retain for modeling.</p>
-        <p><img src="images/sfs.png" alt="&ldquo;sfs module output&rdquo;"></p>
+        <p><img src="https://github.com/jammy-bot/dsc-mod-3-project-v2-1images/sfs.png" alt="&ldquo;sfs module output&rdquo;"></p>
         <p>I took my lead from the random forest feature selection visualization, to determine that the sfs module should search for the &lsquo;k&rsquo; most important subset of features in a range between 8 and 13.</p>
         <p>Twelve features were found to produce the best predictive scoring model.</p>
-        <p><img src="images/n-features.png" alt="&ldquo;sequential feature selection fold performance plot&rdquo;"></p>
+        <p><img src="https://github.com/jammy-bot/dsc-mod-3-project-v2-1/images/n-features.png" alt="&ldquo;sequential feature selection fold performance plot&rdquo;"></p>
         <ul>
           <li>A heatmap of correlations between paired columns in the subset of selected features (<em>see &lsquo;modeling&rsquo; or &lsquo;student&rsquo; notebook</em>) reveals relatively strong relationships between the features
             <code>n_unique_tokens</code> and <code>n_non_stop_words</code>, and between <code>self_ref_min_shares</code> and <code>self_ref_avg_shares</code> predictors.</li>
