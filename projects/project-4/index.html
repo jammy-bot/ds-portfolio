@@ -244,7 +244,7 @@
             September 8-11, 2015.</li>
         </ul>
         <h4 id="attribute-information">Attribute Information:</h4>
-        <p><img src="images\ww_net.png"></p>
+        <p><img src="https://github.com/jammy-bot/dsc-mod-3-project-v2-1/tree/master/images\ww_net.png"></p>
         <p>Provided data comprises 60 numerical attributes, the first of which being the article url and last of which is the original target value, indicating the number of<code>shares</code>.</p>
         <p>Other columns provide data regarding the number of words in each article, the content channel within which the article was published, the day of the week the article was published, and other attributes.</p>
         <h3 id="business-understanding">Business Understanding</h3>
@@ -309,7 +309,7 @@
         <p><img src="https://github.com/jammy-bot/dsc-mod-3-project-v2-1images/gridsearch.png" alt="&ldquo;verbose gridsearch output&rdquo;"></p>
         <p>We see a two - percent increase in precision and accuracy, as a result of using GridSearchCV to find optimal parameters for tuning a random forest model, based on the values in our parameter grid.</p>
         <p>While model scores remained within only a few percentage points, I wondered whether it would be helpful to reduce the number of features taken into account.</p>
-        <p><img src="https://github.com/jammy-bot/dsc-mod-3-project-v2-1images/rf-feature-importances.png" alt="&ldquo;feature importances&rdquo;"></p>
+        <p><img src="https://github.com/jammy-bot/dsc-mod-3-project-v2-1/tree/master/images/rf-feature-importances.png" alt="&ldquo;feature importances&rdquo;"></p>
         <p>So far, we have been modeling with all features in the dataframe. The random forest classifier suggests 10-or-so relatively important features&ndash;a few more than had been suggested by the decision tree model.</p>
         <ul>
           <li>Where kw_avg_avg reached 0.33 and channel_world eeked - out .01 on the scale, for our tree model, random forest model importances for the same two features are approximately 0.15 and .07, respectively.</li>
@@ -318,7 +318,7 @@
         <p>Here, again, we can let machine learning draw the line.</p>
         <p>Including irrelevant features can introduce &lsquo;noise&rsquo; to our model and make results less interpretable. I made use of the mlxtend library&rsquo;s SequentialFeatureSelector (sfs) module to perform forward selection and determine
           the best features to retain for modeling.</p>
-        <p><img src="https://github.com/jammy-bot/dsc-mod-3-project-v2-1images/sfs.png" alt="&ldquo;sfs module output&rdquo;"></p>
+        <p><img src="https://github.com/jammy-bot/dsc-mod-3-project-v2-1/tree/master/images/sfs.png" alt="&ldquo;sfs module output&rdquo;"></p>
         <p>I took my lead from the random forest feature selection visualization, to determine that the sfs module should search for the &lsquo;k&rsquo; most important subset of features in a range between 8 and 13.</p>
         <p>Twelve features were found to produce the best predictive scoring model.</p>
         <p><img src="https://github.com/jammy-bot/dsc-mod-3-project-v2-1/tree/master/images/n-features.png" alt="&ldquo;sequential feature selection fold performance plot&rdquo;"></p>
