@@ -228,11 +228,9 @@
       <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
         <h2 id="binary-classification-using-sklearn-pipeline-sequential-feature-selection-multiple-algorithm-comparison-hyperperameter-tuning-and-xgboost-">Binary classification using sklearn pipeline, sequential feature selection, multiple algorithm
           comparison, hyperperameter tuning, and XGBoost |</h2>
+        <p><img src="../../images/facebook-thumbs-up-thumbs-down.jpg"></p>
         <h2 id="objectives">Objectives</h2>
-        <p>Through this project, I explore the following question:</p>
-        <ul>
-          <li>What features are best able to predict how often an online article will be shared?</li>
-        </ul>
+        <p>Through this project, I explore what features are best able to predict how often an online article will be shared:</p>
         <h3 id="data-set">Data Set</h3>
         <p>This dataset was acquired from the University of California,
           Irvine&rsquo;s Center for Machine Learning and Intelligent Systems archive (<a href="https://archive.ics.uci.edu/ml/datasets/Online+News+Popularity#)">https://archive.ics.uci.edu/ml/datasets/Online+News+Popularity#)</a>.</p>
@@ -244,12 +242,16 @@
             September 8-11, 2015.</li>
         </ul>
         <h4 id="attribute-information">Attribute Information:</h4>
-        <p><img src="images/ww_net.png"></p>
-        <p>Provided data comprises 60 numerical attributes, the first of which being the article url and last of which is the original target value, indicating the number of<code>shares</code>.</p>
+        <p>
+          <figure>
+            <img src="../../images/a-info1.png" alt="First 20 attributes">
+            <figcaption><i>First 20 attributes</i>
+          </figure>
+        </p>
+        <p>Provided data comprises 60 numerical attributes, the first of which being the article url and last of which is the original target value, indicating the number of <code>shares</code>.</p>
         <p>Other columns provide data regarding the number of words in each article, the content channel within which the article was published, the day of the week the article was published, and other attributes.</p>
-        <h3 id="business-understanding">Business Understanding</h3>
-        <p>Mashable is a digital media, news, and blogging website, founded in 2005. It was acquired by Ziff Davis publishing in 2017.</p>
         <h3 id="data-understanding">Data Understanding</h3>
+        <p><img src="../../images/target-balance.png" alt="&ldquo;bar chart of class balance&rdquo;"></p>
         <p>To leverage the data for binary classification, I engineered a new <code>Shares_plus</code> feature, to indicate whether an article had been shared at least 1500 times.</p>
         <blockquote>
           <p>The 50th percentile for shares is 1400, so I crafted a conditional for loop to determine a number where I could split the data into two relatively even classes.</p>
@@ -258,70 +260,19 @@
           <li>Setting a threshold of 1500 shares resulted in 20,082 articles shared fewer than 1500 times and 19,562 articles shared 1500 times or more.</li>
           <li>Articles shared more than 1500 times were noted with the number 1, in the engineered column.</li>
         </ul>
-        <p><img src="https://github.com/jammy-bot/dsc-mod-3-project-v2-1/tree/master/images/target-balance.png?raw=true" alt="&ldquo;bar chart of class balance&rdquo;"></p>
-        <h3 id="data-preparation">Data Preparation</h3>
-        <p>The dataset&rsquo;s column labels are prefixed with a space character, which I replaced with an empty string. Otherwise, the main cleaning step was an optional choice to shorten a number of labels. I replaced &lsquo;entertainment&rsquo;
-          with &lsquo;ent&rsquo;, &lsquo;reference&rsquo; with &lsquo;ref&rsquo;, and about a dozen other such customizations, such that an unnecessarily lengthy <code>weekday_is_friday</code> label instead became a cleaner <code>week_fri</code>.</p>
-        <p><img src="https://github.com/jammy-bot/dsc-mod-3-project-v2-1/tree/master/images/data-histograms.png?raw=true" alt="&ldquo;histogram plot of the Online News Popularity dataset&rdquo;"></p>
-        <p>Visualizing data distributions helped with understanding the types and ranges of data present. Since this was not a regression task, I was not concerned with the apparent lack of strong correlations between the target and any particular
-          predictor. I would leave it to modeling, to make that call.</p>
-        <p>One thing I did become concerned with was the number of features.</p>
-        <p>Leaving aside the <code>url</code>, which I used only as an index column, there are 59 predictors in the dataset. Since the variables are all numeric, I decided to run an unfit logistic model on the full dataset.</p>
-        <h3 id="modeling">Modeling</h3>
-        <p><img src="https://github.com/jammy-bot/dsc-mod-3-project-v2-1/tree/master/images/lr-roc-aucpng.png?raw=true" alt="&ldquo;ROC-AUC plot&rdquo;"></p>
-        <p>The unfit model proves capable of accurately separating entries into their correct classes 64% of the time. Following this result with a fitted decision tree model resulted in very similar scoring.</p>
-        <p><img src="https://github.com/jammy-bot/dsc-mod-3-project-v2-1/tree/master/images/dtree-cm-heatmap.png?raw=true" alt="&ldquo;decision tree confusion matrix&rdquo;"></p>
-        <p>The confusion matrix heatmap shows that the decision tree model slightly favors false negatives over false positives (1836 to 1795). This is a useful result.</p>
-        <h3 id="evaluation">Evaluation</h3>
-        <p>Given the need, we would likely want to favor false negatives over false positives.</p>
         <ul>
-          <li>False positives would incorrectly predict high - performing content, potentially causing the content provider to over - charge advertisers and under - deliver content views.</li>
-          <li>False negatives could result in over - delivering for advertisers. While this may lessen charges for individual advertisements, it could enhance reputation, favor advertiser ROI, and encourage repeat business.</li>
-          <li>Since this is a fairly balanced set of classes, the more accurate the model, the better to deliver or exceed the expectations of advertising algorithms. Results are close enough for accuracy to remain a relevant metric.</li>
-        </ul>
-        <p><strong>So, why should we look any further?</strong></p>
+          .</ul>
         <ul>
-          <li>Revenue generated from online content relies on views and user interactions.
-            <ul>
-              <li>When content is shared widely, more consumers are likely to have opportunities to view it.</li>
-              <li>Consequently, any advertisements served along with the content has greater exposure.</li>
-              <li>Since online advertising algorithms favor relevant content, <strong>providers of web pages with highly shared content can expect to enjoy revenue from higher advertising rates</strong>.</li>
-            </ul>
-          </li>
-          <li>The difference in earnings per view is often only a few cents. Those cents add up when we are talking about thousands of views and multiple ad placements per article page.
-            <ul>
-              <li>For this reason, it is reasonable to look further.</li>
-              <li><strong>A model increases our ability to predict shareable content by even just a couple of percentage points could be well worth the effort</strong>.</li>
-            </ul>
-          </li>
-          <li>In addition, shared content suggest that providers are effectively targeting their key marketing personas with relevant content. That is valuable for brand reputation, <strong>suggests satisfactory user experience</strong>, and
-            encourages repeat visits.</li>
-        </ul>
-        <p>So, at this point, I decided to both look through a different lens and to look more closely.</p>
-        <p>Random forest is a supervised learning algorithm that performs random sampling with replacement, to essentially fit multiple decision trees. It allows for lower correlation between samples than bagging models, by limiting the number of
-          features on which to split.</p>
-        <blockquote>
-          <p>Since random forest leaves out a different segment of the data for testing each tree, it removes bias that can affect single decision tree models. Accordingly, for random forest models, separate cross validation is not required.</p>
-        </blockquote>
-        <p>However, I chose to scale the data at this point. I was beginning to compare models and to create pipelines that might be used to repeat processes across multiple algorithms. Tree and random forest models may not require scaling, but
-          others might.</p>
-        <p>This stage also involved creating a grid search dictionary, to use machine learning to tune hyperparameters to find optimal settings for making predictions on our data.</p>
-        <p><img src="https://github.com/jammy-bot/dsc-mod-3-project-v2-1images/gridsearch.png?raw=true" alt="&ldquo;verbose gridsearch output&rdquo;"></p>
-        <p>We see a two - percent increase in precision and accuracy, as a result of using GridSearchCV to find optimal parameters for tuning a random forest model, based on the values in our parameter grid.</p>
-        <p>While model scores remained within only a few percentage points, I wondered whether it would be helpful to reduce the number of features taken into account.</p>
-        <p><img src="https://github.com/jammy-bot/dsc-mod-3-project-v2-1/tree/master/images/rf-feature-importances.png?raw=true" alt="&ldquo;feature importances&rdquo;"></p>
-        <p>So far, we have been modeling with all features in the dataframe. The random forest classifier suggests 10-or-so relatively important features&ndash;a few more than had been suggested by the decision tree model.</p>
+          View the full README on <a href="https://github.com/jammy-bot/dsc-mod-3-project-v2-1">Github</a></ul>
         <ul>
-          <li>Where kw_avg_avg reached 0.33 and channel_world eeked - out .01 on the scale, for our tree model, random forest model importances for the same two features are approximately 0.15 and .07, respectively.</li>
-          <li>Even if the model itself had not improved, we might at least make running the it less computationally expensive.</li>
-        </ul>
-        <p>Here, again, we can let machine learning draw the line.</p>
+          .</ul>
+        <p>... Here, again, we can let machine learning draw the line.</p>
         <p>Including irrelevant features can introduce &lsquo;noise&rsquo; to our model and make results less interpretable. I made use of the mlxtend library&rsquo;s SequentialFeatureSelector (sfs) module to perform forward selection and determine
           the best features to retain for modeling.</p>
-        <p><img src="https://github.com/jammy-bot/dsc-mod-3-project-v2-1/tree/master/images/sfs.png?raw=true" alt="&ldquo;sfs module output&rdquo;"></p>
+        <p><img src="../../images/sfs.png?" alt="&ldquo;sfs module output&rdquo;"></p>
         <p>I took my lead from the random forest feature selection visualization, to determine that the sfs module should search for the &lsquo;k&rsquo; most important subset of features in a range between 8 and 13.</p>
         <p>Twelve features were found to produce the best predictive scoring model.</p>
-        <p><img src="https://github.com/jammy-bot/dsc-mod-3-project-v2-1/tree/master/images/n-features.png?raw=true" alt="&ldquo;sequential feature selection fold performance plot&rdquo;"></p>
+        <p><img src="../../images/n-features.png?" alt="&ldquo;sequential feature selection fold performance plot&rdquo;"></p>
         <ul>
           <li>A heatmap of correlations between paired columns in the subset of selected features (<em>see &lsquo;modeling&rsquo; or &lsquo;student&rsquo; notebook</em>) reveals relatively strong relationships between the features
             <code>n_unique_tokens</code> and <code>n_non_stop_words</code>, and between <code>self_ref_min_shares</code> and <code>self_ref_avg_shares</code> predictors.</li>
@@ -333,19 +284,24 @@
             </ul>
           </li>
         </ul>
-        <h3 id="deployment-and-next-steps">Deployment and Next Steps</h3>
-        <p>The final model was saved as a pickle file, which may be read and applied to future data. Additional steps for operationalizing work product from this project are included in the notebooks.
-          &hellip;</p>
+        <ul>
+          .</ul>
+        <ul>
+          .</ul>
+        <ul>
+          .</ul>
         <h1 id="featured-notebooksanalysis">Featured Notebooks/Analysis</h1>
         <ul>
           <li>
-            <p><a href="https://github.com/jammy-bot/dsc-mod-3-project-v2-1/blob/master/student.ipynb"><code>student</code>: <strong>Jupyter Notebook</strong></a>: containing code written for this project and comments explaining it.</p>
+            <p><a href="../../blob/master/student.ipynb"><code>student</code>: <strong>Jupyter Notebook</strong></a>: containing code written for this project and comments explaining it.</p>
           </li>
           <li>
-            <p><a href="https://github.com/jammy-bot/dsc-mod-3-project-v2-1/blob/master/01-obtain-and-scrub.ipynb"><code>obtain and scrub</code>: <strong>Jupyter Notebook</strong></a>: [notebook segment] Reading, cleaning, and previewing data characteristics and apparent relationships</p>
+            <p><a href="https://github.com/jammy-bot/dsc-mod-3-project-v2-1/blob/master/01-obtain-and-scrub.ipynb"><code>obtain and scrub</code>: <strong>Jupyter Notebook</strong></a>: [notebook segment] Reading, cleaning, and previewing data
+              characteristics and apparent relationships</p>
           </li>
           <li>
-            <p><a href="https://github.com/jammy-bot/dsc-mod-3-project-v2-1/blob/master/02-explore-and-model.ipynb"><code>explore and model</code>: <strong>Jupyter Notebook</strong></a>: [notebook segment] Visual and exporatory data analysis, modeling, feature selection, hyperperameter tuning, final modeling and
+            <p><a href="https://github.com/jammy-bot/dsc-mod-3-project-v2-1/blob/master/02-explore-and-model.ipynb"><code>explore and model</code>: <strong>Jupyter Notebook</strong></a>: [notebook segment] Visual and exporatory data analysis,
+              modeling, feature selection, hyperperameter tuning, final modeling and
               summation</p>
           </li>
         </ul>
