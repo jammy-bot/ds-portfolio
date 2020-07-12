@@ -7,18 +7,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate>
-    
+
 	<atom:link href="https://jammy-bot.github.io/ds-portfolio/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+
+
     <item>
       <title>Linear Regression in Python</title>
       <link>https://jammy-bot.github.io/ds-portfolio/post/article-1/</link>
       <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
-      
+
       <guid>https://jammy-bot.github.io/ds-portfolio/post/article-1/</guid>
       <description>What is Regression? Put simply, regression is a method for finding a relationship between variables&amp;hellip; (view article on Medium)
 &amp;gt; Defining linear regression and implementing an example in python: * Boston Housing dataset * Visualization in matplotlib * Mean Squared Error (MSE) </description>
+    </item>
+
+    <item>
+      <title>K-means Clustering in Python</title>
+      <link>https://jammy-bot.github.io/ds-portfolio/post/article-2/</link>
+      <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
+
+      <guid>https://jammy-bot.github.io/ds-portfolio/post/article-2/</guid>
+      <description>In this article, we discuss an implementation of the K-means clustering algorithm in Python. We use the sklearn IRIS dataset to train and test a model, with the aim of distinguishing among three plant species. We then colorize scatter plot visualizations of the data. &hellip;
+  (view article on <a href="https://medium.com/analytics-vidhya/k-means-clustering-in-python-80b7ac147eee?source=friends_link&sk=985d1ee9f04282c838663bfff5743096">Medium</a>)
+&amp;gt; We will review:
+* What is K-means clustering, and what are its advantages?
+* Describing the K-means clustering algorithm
+* How to implement K-means clustering in Python </description>
     </item>
     
   </channel>
