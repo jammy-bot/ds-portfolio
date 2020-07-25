@@ -35,7 +35,7 @@ Objectives This project explores the following questions and why:
 
     <item>
       <title>Pneumonia X-ray</title>
-      <weight>5</weight>
+      <weight>1</weight>
       <link>https://jammy-bot.github.io/ds-portfolio/projects/project-2/</link>
       <pubDate>Wed, 31 Dec 1969 19:00:02 -0500</pubDate>
 
@@ -46,7 +46,7 @@ Objectives This project explores the following questions and why:
 
     <item>
       <title>Pytorch Influence Functions</title>
-      <weight>1</weight>
+      <weight>5</weight>
       <link>https://jammy-bot.github.io/ds-portfolio/projects/project-1/</link>
       <pubDate>Wed, 31 Dec 1969 19:00:01 -0500</pubDate>
 
