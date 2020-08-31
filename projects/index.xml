@@ -14,7 +14,7 @@
     <item>
       <title>Online News Prediction</title>
       <link>https://jammy-bot.github.io/ds-portfolio/projects/project-4/</link>
-      <pubDate>Wed, 31 Dec 1969 19:00:04 -0500</pubDate>
+      <pubDate>04/02/20</pubDate>
 
       <guid>https://jammy-bot.github.io/ds-portfolio/projects/project-4/</guid>
       <description>Binary classification using sklearn pipeline, sequential feature selection, multiple algorithm comparison, hyperperameter tuning, and XGBoost | Objectives Through this project, I explore the following question:
@@ -25,7 +25,7 @@
     <item>
       <title>Success at the Movies</title>
       <link>https://jammy-bot.github.io/ds-portfolio/projects/project-3/</link>
-      <pubDate>Wed, 31 Dec 1969 19:00:03 -0500</pubDate>
+      <pubDate>02/04/20</pubDate>
 
       <guid>https://jammy-bot.github.io/ds-portfolio/projects/project-3/</guid>
       <description>Multiple linear regression, SQLite3, PandaSQL | Introduction This project focuses on using data concerning recently successful movie titles. The goal is analysis helpful to the launch of a new studio.
@@ -36,7 +36,7 @@ Objectives This project explores the following questions and why:
     <item>
       <title>Pneumonia X-ray</title>
       <link>https://jammy-bot.github.io/ds-portfolio/projects/project-2/</link>
-      <pubDate>Wed, 31 Dec 1969 19:00:02 -0500</pubDate>
+      <pubDate>05/04/20</pubDate>
 
       <guid>https://jammy-bot.github.io/ds-portfolio/projects/project-2/</guid>
       <description>Binary classification using sklearn pipeline, sequential feature selection, multiple algorithm comparison, hyperperameter tuning, and XGBoost | Nevertheless, as be harangued them, the satisfaction and admiration unanimously excited by his costume were dissipated by his words; and when he reached that untoward conclusion: “As soon as his illustrious eminence, the cardinal, arrives, we will begin,” his voice was drowned in a thunder of hooting.
@@ -46,7 +46,7 @@ Objectives This project explores the following questions and why:
     <item>
       <title>Pytorch Influence Functions</title>
       <link>https://jammy-bot.github.io/ds-portfolio/projects/project-1/</link>
-      <pubDate>Wed, 31 Dec 1969 19:00:01 -0500</pubDate>
+      <pubDate>05/15</pubDate>
 
       <guid>https://jammy-bot.github.io/ds-portfolio/projects/project-1/</guid>
       <description>Using PyTorch to Identify Model Influences This project explores a machine learning package designed to identify which training data exert the most influence over a neural network models outcomes. It is based on the nimarb reimplementation of Influence Functions from the ICML2017 best paper: Understanding Black-box Predictions via Influence Functions by Pang Wei Koh and Percy Liang. The reference implementation can be found here: link.
