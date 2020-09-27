@@ -1,38 +1,70 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Articles on Jamel Dargan</title>
-    <link>https://jammy-bot.github.io/ds-portfolio/post/</link>
-    <description>Recent content in Articles on Jamel Dargan</description>
+    <title>Projects on Jamel Dargan</title>
+    <link>https://jammy-bot.github.io/portfolio/post/</link>
+    <description>Recent content in Projects on Jamel Dargan</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate>
-
-	<atom:link href="https://jammy-bot.github.io/ds-portfolio/post/index.xml" rel="self" type="application/rss+xml" />
-
-
+    <language>en-us</language><atom:link href="https://jammy-bot.github.io/portfolio/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Linear Regression in Python</title>
-      <link>https://jammy-bot.github.io/ds-portfolio/post/article-1/</link>
-      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
-
-      <guid>https://jammy-bot.github.io/ds-portfolio/post/article-1/</guid>
-      <description>What is Regression? Put simply, regression is a method for finding a relationship between variables&amp;hellip; (view article on Medium)
-&amp;gt; Defining linear regression and implementing an example in python: * Boston Housing dataset * Visualization in matplotlib * Mean Squared Error (MSE) </description>
+      <title>Pytorch Influence Functions</title>
+      <link>https://jammy-bot.github.io/portfolio/post/project-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jammy-bot.github.io/portfolio/post/project-1/</guid>
+      <description>Determining which images have the greatest positive and negative impact on a Deep Neural Network model’s predictions.
+Link to Github repository
+Using PyTorch to Identify Model Influences This project is based on the nimarb reimplementation of Influence Functions from the ICML2017 best paper: Understanding Black-box Predictions via Influence Functions by Pang Wei Koh and Percy Liang. The reference implementation can be found here: link.
+The Dataset The project makes use of the CIFAR-10 image dataset, which consists of 50,000 training images and 10000 test images in 10 classes.</description>
     </item>
-
+    
     <item>
-      <title>K-means Clustering in Python</title>
-      <link>https://jammy-bot.github.io/ds-portfolio/post/article-2/</link>
-      <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
-
-      <guid>https://jammy-bot.github.io/ds-portfolio/post/article-2/</guid>
-      <description>In this article, we discuss an implementation of the K-means clustering algorithm in Python. We use the sklearn IRIS dataset to train and test a model, with the aim of distinguishing among three plant species. We then colorize scatter plot visualizations of the data. &hellip;
-  (view article on <a href="https://medium.com/analytics-vidhya/k-means-clustering-in-python-80b7ac147eee?source=friends_link&sk=985d1ee9f04282c838663bfff5743096">Medium</a>)
-&amp;gt; We will review:
-* What is K-means clustering, and what are its advantages?
-* Describing the K-means clustering algorithm
-* How to implement K-means clustering in Python </description>
+      <title>Pneumonia X-ray</title>
+      <link>https://jammy-bot.github.io/portfolio/post/project-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jammy-bot.github.io/portfolio/post/project-2/</guid>
+      <description>Link to Github repository
+Chest x-ray image of normal lungsThis project involves building a deep neural network that trains on a large dataset for classification on a non-trivial task. In this case, the task is using x-ray images of patients to classify whether or not they have pneumonia.
+The Dataset The dataset originates from Kermany et al. on Mendeley.
+The particular subset used for this project is sourced via Kaggle.</description>
+    </item>
+    
+    <item>
+      <title>Online News Prediction</title>
+      <link>https://jammy-bot.github.io/portfolio/post/project-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jammy-bot.github.io/portfolio/post/project-3/</guid>
+      <description>Link to Github repository
+Objectives  Create a classification model. Determine which features are best able to predict how often an online article will be shared.  Data Set This dataset was acquired from the University of California, Irvine&amp;rsquo;s Center for Machine Learning and Intelligent Systems archive (https://archive.ics.uci.edu/ml/datasets/Online+News+Popularity#).
+ Data references articles published by Mashable (www.mashable.com). Citation: K Fernandes, P Vinagre, P Cortez - Progress in Artificial Intelligence: 17th Portuguese Conference on Artificial Intelligence, EPIA 2015, Coimbra, Portugal, September 8-11, 2015.</description>
+    </item>
+    
+    <item>
+      <title>Making Movies</title>
+      <link>https://jammy-bot.github.io/portfolio/post/project-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jammy-bot.github.io/portfolio/post/project-4/</guid>
+      <description>Link to Github repository
+Introduction This project focuses on using data concerning recently successful movie titles. The goal is analysis helpful to the launch of a new studio.
+Objectives This project explores the following questions and why:
+ What are the recent top titles, by gross earnings? Which are the top performing studios? How fluid are their rankings What are the most frequently produced genres? …The biggest earning? What is the genre mix for top studios?</description>
+    </item>
+    
+    <item>
+      <title>Other Projects</title>
+      <link>https://jammy-bot.github.io/portfolio/post/project-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jammy-bot.github.io/portfolio/post/project-5/</guid>
+      <description>I prefer doing data science over maintaining web pages. If you don&amp;rsquo;t see what you&amp;rsquo;re looking for, you are welcome to view my repositories on GitHub.
+1st Other   That&amp;#39;s some image!   Describe&amp;hellip;
+Link to Github repository
+ nth Other   That&amp;#39;s some image!   Describe&amp;hellip;
+Link to Github repository
+ </description>
     </item>
     
   </channel>

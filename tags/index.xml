@@ -2,201 +2,169 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Jamel Dargan</title>
-    <link>https://jammy-bot.github.io/ds-portfolio/tags/</link>
+    <link>https://jammy-bot.github.io/portfolio/tags/</link>
     <description>Recent content in Tags on Jamel Dargan</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://jammy-bot.github.io/ds-portfolio/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://jammy-bot.github.io/portfolio/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>data science</title>
-      <link>https://jammy-bot.github.io/ds-portfolio/tags/data-science/</link>
-      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      <title>CIFAR-10</title>
+      <link>https://jammy-bot.github.io/portfolio/tags/cifar-10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jammy-bot.github.io/ds-portfolio/tags/data-science/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linear regression</title>
-      <link>https://jammy-bot.github.io/ds-portfolio/tags/linear-regression/</link>
-      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://jammy-bot.github.io/ds-portfolio/tags/linear-regression/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>machine learning</title>
-      <link>https://jammy-bot.github.io/ds-portfolio/tags/machine-learning/</link>
-      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://jammy-bot.github.io/ds-portfolio/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://jammy-bot.github.io/ds-portfolio/tags/python/</link>
-      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://jammy-bot.github.io/ds-portfolio/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>all-tags</title>
-      <link>https://jammy-bot.github.io/ds-portfolio/tags/all-tags/</link>
-      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://jammy-bot.github.io/ds-portfolio/tags/all-tags/</guid>
+      <guid>https://jammy-bot.github.io/portfolio/tags/cifar-10/</guid>
       <description></description>
     </item>
     
     <item>
       <title>classification</title>
-      <link>https://jammy-bot.github.io/ds-portfolio/tags/classification/</link>
-      <pubDate>Wed, 31 Dec 1969 19:00:04 -0500</pubDate>
+      <link>https://jammy-bot.github.io/portfolio/tags/classification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jammy-bot.github.io/ds-portfolio/tags/classification/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GridSearchCV</title>
-      <link>https://jammy-bot.github.io/ds-portfolio/tags/gridsearchcv/</link>
-      <pubDate>Wed, 31 Dec 1969 19:00:04 -0500</pubDate>
-      
-      <guid>https://jammy-bot.github.io/ds-portfolio/tags/gridsearchcv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>sequential feature selection</title>
-      <link>https://jammy-bot.github.io/ds-portfolio/tags/sequential-feature-selection/</link>
-      <pubDate>Wed, 31 Dec 1969 19:00:04 -0500</pubDate>
-      
-      <guid>https://jammy-bot.github.io/ds-portfolio/tags/sequential-feature-selection/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>sklearn</title>
-      <link>https://jammy-bot.github.io/ds-portfolio/tags/sklearn/</link>
-      <pubDate>Wed, 31 Dec 1969 19:00:04 -0500</pubDate>
-      
-      <guid>https://jammy-bot.github.io/ds-portfolio/tags/sklearn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>XGBoost</title>
-      <link>https://jammy-bot.github.io/ds-portfolio/tags/xgboost/</link>
-      <pubDate>Wed, 31 Dec 1969 19:00:04 -0500</pubDate>
-      
-      <guid>https://jammy-bot.github.io/ds-portfolio/tags/xgboost/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PandaSQL</title>
-      <link>https://jammy-bot.github.io/ds-portfolio/tags/pandasql/</link>
-      <pubDate>Wed, 31 Dec 1969 19:00:03 -0500</pubDate>
-      
-      <guid>https://jammy-bot.github.io/ds-portfolio/tags/pandasql/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pickle</title>
-      <link>https://jammy-bot.github.io/ds-portfolio/tags/pickle/</link>
-      <pubDate>Wed, 31 Dec 1969 19:00:03 -0500</pubDate>
-      
-      <guid>https://jammy-bot.github.io/ds-portfolio/tags/pickle/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>regression</title>
-      <link>https://jammy-bot.github.io/ds-portfolio/tags/regression/</link>
-      <pubDate>Wed, 31 Dec 1969 19:00:03 -0500</pubDate>
-      
-      <guid>https://jammy-bot.github.io/ds-portfolio/tags/regression/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SQLite3</title>
-      <link>https://jammy-bot.github.io/ds-portfolio/tags/sqlite3/</link>
-      <pubDate>Wed, 31 Dec 1969 19:00:03 -0500</pubDate>
-      
-      <guid>https://jammy-bot.github.io/ds-portfolio/tags/sqlite3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CNN</title>
-      <link>https://jammy-bot.github.io/ds-portfolio/tags/cnn/</link>
-      <pubDate>Wed, 31 Dec 1969 19:00:02 -0500</pubDate>
-      
-      <guid>https://jammy-bot.github.io/ds-portfolio/tags/cnn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>deep learning</title>
-      <link>https://jammy-bot.github.io/ds-portfolio/tags/deep-learning/</link>
-      <pubDate>Wed, 31 Dec 1969 19:00:02 -0500</pubDate>
-      
-      <guid>https://jammy-bot.github.io/ds-portfolio/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GPU training</title>
-      <link>https://jammy-bot.github.io/ds-portfolio/tags/gpu-training/</link>
-      <pubDate>Wed, 31 Dec 1969 19:00:02 -0500</pubDate>
-      
-      <guid>https://jammy-bot.github.io/ds-portfolio/tags/gpu-training/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>keras</title>
-      <link>https://jammy-bot.github.io/ds-portfolio/tags/keras/</link>
-      <pubDate>Wed, 31 Dec 1969 19:00:02 -0500</pubDate>
-      
-      <guid>https://jammy-bot.github.io/ds-portfolio/tags/keras/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CIFAR-10</title>
-      <link>https://jammy-bot.github.io/ds-portfolio/tags/cifar-10/</link>
-      <pubDate>Wed, 31 Dec 1969 19:00:01 -0500</pubDate>
-      
-      <guid>https://jammy-bot.github.io/ds-portfolio/tags/cifar-10/</guid>
+      <guid>https://jammy-bot.github.io/portfolio/tags/classification/</guid>
       <description></description>
     </item>
     
     <item>
       <title>computer vision</title>
-      <link>https://jammy-bot.github.io/ds-portfolio/tags/computer-vision/</link>
-      <pubDate>Wed, 31 Dec 1969 19:00:01 -0500</pubDate>
+      <link>https://jammy-bot.github.io/portfolio/tags/computer-vision/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jammy-bot.github.io/ds-portfolio/tags/computer-vision/</guid>
+      <guid>https://jammy-bot.github.io/portfolio/tags/computer-vision/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>PyTorch</title>
-      <link>https://jammy-bot.github.io/ds-portfolio/tags/pytorch/</link>
-      <pubDate>Wed, 31 Dec 1969 19:00:01 -0500</pubDate>
+      <title>deep learning</title>
+      <link>https://jammy-bot.github.io/portfolio/tags/deep-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jammy-bot.github.io/ds-portfolio/tags/pytorch/</guid>
+      <guid>https://jammy-bot.github.io/portfolio/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>feature importances</title>
+      <link>https://jammy-bot.github.io/portfolio/tags/feature-importances/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jammy-bot.github.io/portfolio/tags/feature-importances/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GPU</title>
+      <link>https://jammy-bot.github.io/portfolio/tags/gpu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jammy-bot.github.io/portfolio/tags/gpu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gridsearch</title>
+      <link>https://jammy-bot.github.io/portfolio/tags/gridsearch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jammy-bot.github.io/portfolio/tags/gridsearch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>image dataset</title>
+      <link>https://jammy-bot.github.io/portfolio/tags/image-dataset/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jammy-bot.github.io/portfolio/tags/image-dataset/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>keras</title>
+      <link>https://jammy-bot.github.io/portfolio/tags/keras/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jammy-bot.github.io/portfolio/tags/keras/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>numpy</title>
+      <link>https://jammy-bot.github.io/portfolio/tags/numpy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jammy-bot.github.io/portfolio/tags/numpy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>os</title>
+      <link>https://jammy-bot.github.io/portfolio/tags/os/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jammy-bot.github.io/portfolio/tags/os/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pandas</title>
+      <link>https://jammy-bot.github.io/portfolio/tags/pandas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jammy-bot.github.io/portfolio/tags/pandas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pickle</title>
+      <link>https://jammy-bot.github.io/portfolio/tags/pickle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jammy-bot.github.io/portfolio/tags/pickle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>projects</title>
+      <link>https://jammy-bot.github.io/portfolio/tags/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jammy-bot.github.io/portfolio/tags/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pytorch</title>
+      <link>https://jammy-bot.github.io/portfolio/tags/pytorch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jammy-bot.github.io/portfolio/tags/pytorch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>repositories</title>
+      <link>https://jammy-bot.github.io/portfolio/tags/repositories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jammy-bot.github.io/portfolio/tags/repositories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scikit-learn</title>
+      <link>https://jammy-bot.github.io/portfolio/tags/scikit-learn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jammy-bot.github.io/portfolio/tags/scikit-learn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xgboost</title>
+      <link>https://jammy-bot.github.io/portfolio/tags/xgboost/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jammy-bot.github.io/portfolio/tags/xgboost/</guid>
       <description></description>
     </item>
     
