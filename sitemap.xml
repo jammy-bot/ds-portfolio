@@ -3,181 +3,181 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jammy-bot.github.io/portfolio/about/</loc>
+    <loc>https://jammy-bot.github.io/ds-portfolio/about/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://jammy-bot.github.io/portfolio/post/project-1/</loc>
+    <loc>https://jammy-bot.github.io/ds-portfolio/post/project-1/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://jammy-bot.github.io/portfolio/post/project-2/</loc>
+    <loc>https://jammy-bot.github.io/ds-portfolio/post/project-2/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://jammy-bot.github.io/portfolio/post/</loc>
+    <loc>https://jammy-bot.github.io/ds-portfolio/post/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://jammy-bot.github.io/portfolio/articles/</loc>
+    <loc>https://jammy-bot.github.io/ds-portfolio/articles/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://jammy-bot.github.io/portfolio/post/project-3/</loc>
+    <loc>https://jammy-bot.github.io/ds-portfolio/post/project-3/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://jammy-bot.github.io/portfolio/contact/</loc>
+    <loc>https://jammy-bot.github.io/ds-portfolio/contact/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://jammy-bot.github.io/portfolio/post/project-4/</loc>
+    <loc>https://jammy-bot.github.io/ds-portfolio/post/project-4/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://jammy-bot.github.io/portfolio/post/project-5/</loc>
+    <loc>https://jammy-bot.github.io/ds-portfolio/post/project-5/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://jammy-bot.github.io/portfolio/categories/</loc>
+    <loc>https://jammy-bot.github.io/ds-portfolio/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://jammy-bot.github.io/portfolio/tags/cifar-10/</loc>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/cifar-10/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://jammy-bot.github.io/portfolio/tags/classification/</loc>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/classification/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://jammy-bot.github.io/portfolio/tags/computer-vision/</loc>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/computer-vision/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://jammy-bot.github.io/portfolio/</loc>
+    <loc>https://jammy-bot.github.io/ds-portfolio/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://jammy-bot.github.io/portfolio/tags/deep-learning/</loc>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/deep-learning/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://jammy-bot.github.io/portfolio/tags/feature-importances/</loc>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/feature-importances/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://jammy-bot.github.io/portfolio/tags/gpu/</loc>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/gpu/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://jammy-bot.github.io/portfolio/tags/gridsearch/</loc>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/gridsearch/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://jammy-bot.github.io/portfolio/tags/image-dataset/</loc>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/image-dataset/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://jammy-bot.github.io/portfolio/tags/keras/</loc>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/keras/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://jammy-bot.github.io/portfolio/tags/numpy/</loc>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/numpy/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://jammy-bot.github.io/portfolio/tags/os/</loc>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/os/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://jammy-bot.github.io/portfolio/tags/pandas/</loc>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/pandas/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://jammy-bot.github.io/portfolio/tags/pickle/</loc>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/pickle/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://jammy-bot.github.io/portfolio/tags/projects/</loc>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/projects/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://jammy-bot.github.io/portfolio/tags/pytorch/</loc>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/pytorch/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://jammy-bot.github.io/portfolio/tags/repositories/</loc>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/repositories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://jammy-bot.github.io/portfolio/tags/scikit-learn/</loc>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/scikit-learn/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://jammy-bot.github.io/portfolio/tags/</loc>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://jammy-bot.github.io/portfolio/tags/xgboost/</loc>
+    <loc>https://jammy-bot.github.io/ds-portfolio/tags/xgboost/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
